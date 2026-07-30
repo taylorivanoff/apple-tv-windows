@@ -1,0 +1,48 @@
+{
+  "name": "apple-tv",
+  "description": "Watch Apple TV in a native Windows application.",
+  "author": {
+    "name": "Taylor Ivanoff"
+  },
+  "version": "1.0.0",
+  "repository": "https://github.com/taylorivanoff/apple-tv-windows",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "release": "electron-builder --win --x64 --publish=never"
+  },
+  "build": {
+    "appId": "io.github.taylorivanoff.apple-tv",
+    "productName": "Apple TV",
+    "win": {
+      "icon": "icon.png",
+      "target": "nsis",
+      "artifactName": "${name}-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "include": "installer.nsh",
+      "deleteAppDataOnUninstall": true
+    },
+    "publish": {
+      "provider": "generic",
+      "url": "https://github.com/taylorivanoff/apple-tv-windows/releases/latest/download"
+    },
+    "protocols": {
+      "name": "Apple TV",
+      "schemes": [
+        "apple-tv"
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-store": "^8.2.0",
+    "electron-updater": "^6.1.8",
+    "icloud-windows-base": "github:taylorivanoff/icloud-windows-base#v1.0.17"
+  },
+  "devDependencies": {
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3"
+  }
+}
