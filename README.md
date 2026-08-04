@@ -1,11 +1,13 @@
-# Apple TV for Windows
+# Apple TV for Windows — Unofficial Desktop App
 
 [![Release](https://img.shields.io/github/v/release/taylorivanoff/apple-tv-windows)](https://github.com/taylorivanoff/apple-tv-windows/releases)
 [![Downloads](https://img.shields.io/github/downloads/taylorivanoff/apple-tv-windows/total)](https://github.com/taylorivanoff/apple-tv-windows/releases)
 [![License](https://img.shields.io/github/license/taylorivanoff/apple-tv-windows)](LICENSE)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/taylorivanoff)
 
-A native Windows application for accessing [Apple TV](https://tv.apple.com/).
+Unofficial **Apple TV for Windows** desktop app. Access [Apple TV](https://tv.apple.com/) in a dedicated Electron client with system tray, auto-updates, and shared Apple ID authentication.
+
+Watch Apple TV+ and browse the Apple TV catalog on Windows in a native-feeling desktop wrapper with tray and auto-updates.
 
 ## Features
 
@@ -36,6 +38,10 @@ bun run start
 ```bash
 bun run release
 ```
+
+## Keywords
+
+Apple TV for Windows, Apple TV+ Windows app, tv.apple.com desktop, unofficial Apple TV PC client, Apple TV+ on Windows
 
 ## Contributing
 
