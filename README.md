@@ -3,7 +3,6 @@
 [![Release](https://img.shields.io/github/v/release/taylorivanoff/apple-tv-windows)](https://github.com/taylorivanoff/apple-tv-windows/releases)
 [![Downloads](https://img.shields.io/github/downloads/taylorivanoff/apple-tv-windows/total)](https://github.com/taylorivanoff/apple-tv-windows/releases)
 [![License](https://img.shields.io/github/license/taylorivanoff/apple-tv-windows)](LICENSE)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/taylorivanoff)
 
 Apple TV desktop app for Windows. Access [Apple TV](https://tv.apple.com/).
 
