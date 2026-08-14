@@ -4,7 +4,7 @@ pub fn run() {
         tauri_icloud_base::IcloudAppConfig {
             app_name: "Apple TV",
             url: "https://tv.apple.com",
-            remove_toolbar: false,
+            remove_toolbar: true,
         },
         tauri::generate_context!(),
     );
